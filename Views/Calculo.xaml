@@ -4,6 +4,7 @@
              x:Class="Quintana_AppApuntes.Views.Calculo"
              Title="Calculo">
     <StackLayout>
+        <Label Text="Conteo de Caracteres RQ" />
         <Entry x:Name="entrada" Placeholder="Ingrese una cadena" />
         <Button Text="Calcular" Clicked="Calcular_Clicked" />
         <Label x:Name="resultado" />
